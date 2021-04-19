@@ -1,0 +1,7 @@
+version: '2'
+services:
+    catalog-api:
+        container_name: catalog-api
+        image: catalog-api:latest
+        ports:
+            - 8080:8080
